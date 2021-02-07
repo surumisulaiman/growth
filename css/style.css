@@ -1,9 +1,16 @@
+:root{
+    --gray: #BDBDBD;
+    --blue: #0D8BFC;
+}
+
+
+
 *{
     margin: 0;
     padding: 0;
     
-    
 }
+
 body{
     max-width:960px;
     margin: auto;
@@ -11,19 +18,20 @@ body{
     
     
 }
+
 section{
     margin-top: 40px;
     display: flex;
 }
+
 .main_data{
-    display: flex;
-    
-    
+    display: flex;  
 }
 
 .box{
     position: absolute;
 }
+
 .urlinput
 {
 
@@ -37,15 +45,18 @@ section{
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
-
    
-
 }
+
 .insights{
     width :150px;
     height: 38px;
     color:white;
     background-color:#0D8BFC;
+    height: 48px;
+    border: 2px solid #0D8BFC;
+    margin-left: -4px;
+
 }
 .img
 { 
@@ -61,5 +72,74 @@ section{
     flex-direction: column;
     /* align-items: center; */
     justify-content: center;
+
+}
+h1{
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 800;
+}
+.photo{
+    width: 50%;
+
+}
+.title_details
+{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+}
+.para{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4F4F4F;
+    margin-bottom: 24px;
+    
+}
+.sub_data{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.urlinput{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    color:#828282;
+    height: 48px;
+    padding-left: 10px;
+    border: 2px solid var(--blue)
+    
+}
+.title{
+    margin-bottom: 20px;
+}
+.globex{
+    color:  #0D8BFC;
+}
+.data{
+    /* margin-bottom: 40px; */
+}
+.header_section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+   
+}
+.login{
+padding:10px 20px;
+background-color: transparent;
+border: none;
+color: var(--gray);
+
+}
+.signup{
+    background: #0D8BFC;
+    color: white;
+    border: 2px solid #0D8BFC;
+    margin-left: 40px;
+    padding: 10px 20px;
 
 }
