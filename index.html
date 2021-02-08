@@ -3,6 +3,13 @@
         <link href="css/style.css" type="text/css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+
+
+        <script>
+            function myFunction() {
+                window.location.href="result.html";
+            }
+        </script>
     </head>
     <div class="header_part">
         <header>
@@ -31,7 +38,8 @@
             
             <form class="data">
                     <input type="text" class="urlinput" name="" placeholder="Put your website URL here. Eg. https://www.growth.cx/">
-                    <input type="button" class="insights" name="" value="Get insights">
+                    <input  onclick="myFunction()" type="button" class="insights" name="" value="Get insights">
+                    
             </form>
         </section>
         
