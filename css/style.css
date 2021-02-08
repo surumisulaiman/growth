@@ -1,6 +1,9 @@
 :root{
     --gray: #BDBDBD;
+    --gray-light: #f2f2f2;
     --blue: #0D8BFC;
+    --dark-blue:#4776E6;
+
 }
 
 
@@ -15,6 +18,10 @@ body{
     max-width:960px;
     margin: auto;
     margin-bottom: 100px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    font-family: Montserrat;
 }
 
 section{
@@ -47,7 +54,7 @@ section{
 }
 
 .insights{
-    width :150px;
+    width :30%;
     height: 38px;
     color:white;
     background-color:#0D8BFC;
@@ -117,9 +124,7 @@ h1{
 .globex{
     color:  #0D8BFC;
 }
-.data{
-    /* margin-bottom: 40px; */
-}
+
 .header_section{
     display: flex;
     justify-content: space-between;
@@ -141,3 +146,99 @@ color: var(--gray);
     padding: 10px 20px;
 
 }
+.data{
+    display: flex;
+    width: 600px;
+}
+
+
+/* Result Page */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  
+  td, th {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 16px;
+  }
+  
+  th{
+    background-color: #dddddd;
+  }
+
+  .table_heading h5{
+      font-size: 24px;
+      
+  }
+  .icon2{
+      margin-left: 16px;
+  }
+ tr:hover {
+        background-color: var(--gray-light);
+      }
+.header_section1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 80px;
+   
+
+}
+.urlinput{
+    width: 100%;
+    margin-bottom: 20px;;
+}  
+.table_section{
+    margin-top: 40px;
+}
+.word_cound{
+    color: var(--blue);
+    font-size: 50px;
+
+      
+}
+.second_bar{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.main_container{
+    max-width: 740px;
+    margin:auto;
+}
+  .message_data{
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 500;
+  }
+
+
+/*pagination css start */
+
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color:gray; 
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+   
+/*pagination css end */
